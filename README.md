@@ -51,5 +51,5 @@ Then access to 80 port by your browser.
 Screenshot
 -----------------------------
 
-![index page][https://github.com/matsubo/eccube-docker/blob/master/screenshot/index.png]
+![index page](https://github.com/matsubo/eccube-docker/blob/master/screenshot/index.png)
 
