@@ -17,6 +17,24 @@ How to setup Docker on Mac OS X
 How to run eccube docker image
 ---------------------
 
+### Pull from repository
+
+```
+$ docker pull matsubo/eccube
+$ docker run -it matsubo/eccube /bin/bash
+```
+
+Then start server manually
+```
+# service mysql start
+# service apache2 start
+```
+
+
+
+### Build from base image by your self
+
+
 ```
 $ git clone xxxxxx.git
 $ cd xxxxx
