@@ -51,5 +51,12 @@ Then access to 80 port by your browser.
 Screenshot
 -----------------------------
 
+### Web browser
+
 ![index page](https://github.com/matsubo/eccube-docker/blob/master/screenshot/index.png)
+
+
+### Docker container sample
+
+![index page](https://github.com/matsubo/eccube-docker/blob/master/screenshot/docker_ps.png)
 
