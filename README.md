@@ -44,3 +44,12 @@ $ docker run -it -p 80 eccube/spike
 
 `Ctrl+p, Ctrl+q` to escape from container.
 
+
+Then access to 80 port by your browser.
+
+
+Screenshot
+-----------------------------
+
+![index page][https://github.com/matsubo/eccube-docker/blob/master/screenshot/index.png]
+
