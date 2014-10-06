@@ -48,15 +48,23 @@ $ docker run -it -p 80 eccube/spike
 Then access to 80 port by your browser.
 
 
+### Reference 
+
+- Core OS -> Host OS port mapping setting.
+  - https://github.com/coreos/coreos-vagrant/blob/master/Vagrantfile#L75
+  - Vagrant can configure guest OS's port mapping auto matically.
+
+
 Screenshot
 -----------------------------
+
+
+### Cheking the mapping port
+
+![index page](https://github.com/matsubo/eccube-docker/blob/master/screenshot/docker_ps.png)
+
+
 
 ### Web browser
 
 ![index page](https://github.com/matsubo/eccube-docker/blob/master/screenshot/index.png)
-
-
-### Docker container sample
-
-![index page](https://github.com/matsubo/eccube-docker/blob/master/screenshot/docker_ps.png)
-
