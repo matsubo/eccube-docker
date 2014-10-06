@@ -21,7 +21,7 @@ How to run eccube docker image
 
 ```
 $ docker pull matsubo/eccube
-$ docker run -it matsubo/eccube /bin/bash
+$ docker run -it -p 80 matsubo/eccube /bin/bash
 ```
 
 Then start server manually
