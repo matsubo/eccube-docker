@@ -21,13 +21,7 @@ How to run eccube docker image
 
 ```
 $ docker pull matsubo/eccube
-$ docker run -it -p 80 matsubo/eccube /bin/bash
-```
-
-Then start server manually
-```
-# service mysql start
-# service apache2 start
+$ docker run -it -p 80 matsubo/eccube
 ```
 
 
@@ -45,7 +39,7 @@ $ docker run -it -p 80 eccube/spike
 `Ctrl+p, Ctrl+q` to escape from container.
 
 
-Then access to 80 port by your browser.
+Then access to container's 80 port via vagrant by your browser.
 
 
 ### Reference 
