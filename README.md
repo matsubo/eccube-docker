@@ -62,3 +62,15 @@ Screenshot
 ### Web browser
 
 ![index page](https://github.com/matsubo/eccube-docker/blob/master/screenshot/index.png)
+
+Operation memo
+-----------------------------
+
+How to build image and push to docker hub.
+
+```
+% docker build .
+% docker tag xxxxxx matsubo/eccube:latest
+% docker push matsubo/eccube:latest
+```
+
