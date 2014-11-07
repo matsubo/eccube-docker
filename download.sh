@@ -18,5 +18,6 @@ wget http://downloads.ec-cube.net/src/eccube-2.12.6.tar.gz
 wget http://downloads.ec-cube.net/src/eccube-2.13.0.tar.gz
 wget http://downloads.ec-cube.net/src/eccube-2.13.1.tar.gz
 wget http://downloads.ec-cube.net/src/eccube-2.13.2.tar.gz
+wget http://downloads.ec-cube.net/src/eccube-2.13.3.tar.gz
 
 
