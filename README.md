@@ -5,7 +5,6 @@ How to setup Docker on Mac OS X
 --------------------
 
 ```
-% brew install docker
 % git clone git@github.com:coreos/coreos-vagrant.git
 % cd coreos-vagrant
 % vagrant up 
