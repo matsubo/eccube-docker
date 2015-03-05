@@ -29,8 +29,8 @@ $ docker run -it -p 80 matsubo/eccube
 
 
 ```
-$ git clone xxxxxx.git
-$ cd xxxxx
+$ git clone git@github.com:matsubo/eccube-docker.git
+$ cd eccube-docker
 $ docker build -t eccube/spike .
 $ docker run -it -p 80 eccube/spike
 ```
