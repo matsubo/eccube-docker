@@ -4,6 +4,9 @@ eccube docker image
 How to setup Docker on Mac OS X
 --------------------
 
+Start docker host OS using Vagrant or boot2docker as you like.
+
+1. Vagrant
 ```
 % git clone git@github.com:coreos/coreos-vagrant.git
 % cd coreos-vagrant
@@ -11,6 +14,10 @@ How to setup Docker on Mac OS X
 % vagrant ssh
 ```
 
+2. boot2docker
+```
+% boot2docker up
+```
 
 
 How to run eccube docker image
@@ -22,6 +29,11 @@ How to run eccube docker image
 $ docker pull matsubo/eccube
 $ docker run -it -p 80 matsubo/eccube
 ```
+
+Open the docker's host OS by your web browser with port 3000.
+
+Enjoy!
+
 
 
 
