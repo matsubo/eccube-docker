@@ -27,10 +27,10 @@ How to run eccube docker image
 
 ```
 $ docker pull matsubo/eccube
-$ docker run -it -p 80 matsubo/eccube
+$ docker run -P -it matsubo/eccube
 ```
 
-Open the docker's host OS by your web browser with port 3000.
+Open the docker's host OS by your web browser.
 
 Enjoy!
 

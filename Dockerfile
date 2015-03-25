@@ -66,7 +66,7 @@ RUN mkdir -p /var/log/supervisor
 ADD supervisord.conf /etc/supervisord.conf
 
 
-EXPOSE 80 3306 5432
+EXPOSE 80:80
 
 # Define default command.
 CMD ["supervisord", "-n"]
